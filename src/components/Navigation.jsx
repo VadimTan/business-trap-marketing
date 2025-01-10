@@ -8,7 +8,7 @@ import Logo from '../assets/images/Business-Trap-Marketing-Logo-Fixed-Inverted.p
 
 export const Navigation = () => {
   return (
-    <div className='flex bg-black justify-between items-center px-9 py-6'>
+    <div className='flex sticky backdrop-filter backdrop-blur-[20px] top-0 w-full z-50 bg-[rgba(20,20,20,0.20)] justify-between items-center px-10 py-3'>
       <a
         className='cursor-pointer'
         onClick={() => window.location.reload()}>
